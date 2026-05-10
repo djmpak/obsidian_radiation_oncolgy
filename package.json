@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-oncology-workdesk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Obsidian DataviewJS workspace for oncology/radiotherapy patient workflow management.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node Архив/Scripts/tools/run-tests.cjs"
+  },
+  "devDependencies": {
+    "acorn": "^8.15.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

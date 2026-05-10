@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Local Obsidian/Codex state
+.obsidian/
+.codex/
+.trash/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Patient data and attachments - keep real PHI out of GitHub
+Пациенты/**
+!Пациенты/.gitkeep
+Консультации/**
+!Консультации/.gitkeep
+Не начали/**
+!Не начали/.gitkeep
+Выписка/**
+!Выписка/.gitkeep
+Выписаны/
+Выписки/
+Вложения/
+Attachments/
+attachments/
+Сканы/
+Документы/
+
+# Local staff directory can contain real names
+Архив/Врачи.md
+
+# Local planning notes are not part of the public repository
+Архив/Планы/
+
+# Local build/test outputs
+coverage/
+dist/
+build/
